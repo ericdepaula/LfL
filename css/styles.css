@@ -74,6 +74,7 @@
   box-shadow: #0000001a 0px 1px 2px 0px;
 }
 .card a {
+  padding: 12px 12px;
   text-decoration: none;
   color: #fff;
 }
