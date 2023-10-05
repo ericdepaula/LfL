@@ -13,13 +13,31 @@
   margin-left: 20px;
   position: relative;
   color: #000;
+  font-weight: 500;
 }
-.navbar .nav-link:hover,
+
+.navbar .nav-link:hover {
+  background-image: -webkit-linear-gradient(45deg, #1a6daf, #f45eac);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dropdown-item {
+  transition: all 0.3s ease;
+}
 .dropdown-item:hover {
-  color: #00f;
+  color: #fff;
+  background: linear-gradient(90deg, #25abbe 0%, #1a6daf 50%, #f45eac 100%);
+}
+.dropdown-item.active {
+  color: #fff;
+  background: linear-gradient(90deg, #25abbe 0%, #1a6daf 50%, #f45eac 100%);
 }
 .navbar .nav-link.active {
-  color: #00f;
+  background-image: -webkit-linear-gradient(45deg, #1a6daf, #f45eac);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 .navbar .navbar-brand img {
