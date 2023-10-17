@@ -163,6 +163,17 @@ footer .list-unstyled li a:hover {
   fill: #1a1ef7;
 }
 
+.developer{
+  border-top: 2px black solid;
+  text-align: center;
+  line-height: 5px;
+  font-size: 12px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.developer p{
+  margin: 10px; 
+ }
 /* Estilo do botão do WhatsApp */
 
 .whatsapp-button box-icon {
@@ -197,5 +208,10 @@ footer .list-unstyled li a:hover {
     width: 100px;
     height: 100px;
     margin: 0 10px;
+  }
+  .developer{
+    text-align: center;
+    line-height: 10px;
+    font-size: 8px;
   }
 }
