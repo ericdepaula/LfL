@@ -1,3 +1,10 @@
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+
 (() => {
   "use strict";
 
@@ -54,5 +61,6 @@ document.getElementById("contact-form").addEventListener("submit", function(even
       console.error("Houve um problema ao enviar o email.", error);
       // Alerta de erro
       alert('Email não enviado com sucesso, tente novamente!', error);
+      btn.value = 'Enviar';
     });
 });
